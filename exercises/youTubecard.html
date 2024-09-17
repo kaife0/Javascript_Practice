@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube card</title>
+    <style>
+        .card {
+            display: flex;
+            /* border: 2px solid black; */
+            width: 900px;
+            /* justify-content: center; */
+            align-items: center;
+            padding: 12px;
+            margin: 5px;
+        }
+
+        .image img {
+            width: 200px;
+
+        }
+
+        .text h1,
+        p {
+            padding: 2px 0;
+        }
+
+        .image {
+            position: relative;
+        }
+
+        .image .capsule {
+            position: absolute;
+            bottom: 0;
+            z-index: 10;
+            right: 5px;
+            background: #151414;
+            color: white;
+            opacity: 0.9;
+            padding: 3px;
+            border-radius: 5px;
+            font-size: 13px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDWfGPsuQKuWateaRbWeBo1MDhM3A"
+                    alt="Thumbnail">
+                <div class="capsule"> 32:07</div>
+            </div>
+            <div class="text">
+                <h1>Introduction to backend | sigma web dev video</h1>
+                <p>CodewithKaif . 767k views . 2 months ago</p>
+            </div>
+        </div>
+    </div>
+    <script src="card.js"></script>
+
+</body>
+
+</html>

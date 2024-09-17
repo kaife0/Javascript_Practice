@@ -1,0 +1,30 @@
+body {
+    background-color: lightseagreen;
+}
+
+.imgBox {
+    background-image: url('image.png');
+    position: relative;
+    height: 145px;
+    width: 145px;
+    top: 8px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.whiteBox {
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.hold {
+    border: 3px solid red;
+}
+
+.hide {
+    display: none;
+}

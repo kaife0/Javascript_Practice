@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random color for boxes</title>
+<style>
+    .container{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 25px;
+    }
+
+    .box{
+        height: 50px;
+        width: 50px;
+        border: 2px solid black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+    </div>
+    <script>
+        console.log("code is running");
+        let boxes = document.getElementsByClassName("box");
+        
+        function getRandomColor(){
+            const letters = '0123456789ABCDEF' ;
+            let color = '#';
+            for(let i=0; i<6; i++){
+                color += letters[Math.floor(Math.random()*16)];
+            }
+            return color;
+        }
+
+        for (let i=0; i<boxes.length; i++){
+            boxes[i].style.backgroundColor = getRandomColor();
+            boxes[i].style.color = getRandomColor();
+        }
+
+    </script>
+</body>
+</html>
