@@ -7,7 +7,7 @@ const whiteBoxes = document.getElementsByClassName('whiteBox');
 imgBox.addEventListener('dragstart', (e) => {
     console.log('dragStart has been triggered');
     e.target.className += ' hold'
-    setTimeout(() => {
+    setTimeout(() => { 
         e.target.className = 'hide';
     }, 0);
 });
