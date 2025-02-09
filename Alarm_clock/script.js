@@ -1,7 +1,7 @@
 
 let clockElement = document.getElementById("clock");
 
-// Get the alarm input element
+
 let alarmInputElement = document.getElementById("alarm-input");
 
 // Get the alarm button element
