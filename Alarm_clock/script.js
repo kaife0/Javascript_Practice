@@ -4,10 +4,10 @@ let clockElement = document.getElementById("clock");
 
 let alarmInputElement = document.getElementById("alarm-input");
 
-// Get the alarm button element
+
 let alarmButtonElement = document.getElementById("alarm-button");
 
-// Get the alarm message element
+
 let alarmMessageElement = document.getElementById("alarm-message");
 
 // Function to update the clock
