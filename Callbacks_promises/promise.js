@@ -6,7 +6,7 @@ let prom1 = new Promise((resolve, reject)=>{
         reject("No promise was not supported");
     }
     else{
-
+ 
         setTimeout (() =>{
             console.log("yes I am done");
             resolve("kaif");
