@@ -10,7 +10,7 @@ setTimeout(() => {
 }, 0);
 
 console.log("The end");
-//type anfn to create arrow function.
+
 
 const callback = (arg) => {
     console.log(arg);
