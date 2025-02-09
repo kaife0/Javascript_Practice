@@ -1,4 +1,4 @@
-// Get the clock element
+
 let clockElement = document.getElementById("clock");
 
 // Get the alarm input element
