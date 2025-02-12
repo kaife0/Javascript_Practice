@@ -18,7 +18,7 @@ const arrayOfNumber = (num) =>{
 return returnArray;
 }
 console.log(numberOfEven(arrayOfNumber(17)));
-
+ 
 //sort in acending order
 const acendingSort = (arr) =>
     arr.sort((a, b) => a - b);
