@@ -4,7 +4,7 @@ const evenNumber = (arr) =>
 
 console.log(evenNumber([1,2,4,6,7]))
 console.log(evenNumber([1,2,4,6,5,9,6,22,7]))
-console.log(evenNumber([1,2,4,6,24,554,572]));
+console.log(evenNumber([1,2,4,6,24,554,572])); 
 
 //number of even values upto given number
 
