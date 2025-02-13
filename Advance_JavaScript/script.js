@@ -13,7 +13,7 @@ async function sleep(){
     // console.log(b);
  
     //-->DESTRUCTURING
-    // let [x, y, ...rest] = [1, 2, 5, 7, 8, 10]
+    // let [x, y, ...rest] = [1, 2, 5, 7, 8, 10] 
     // console.log(x, y, rest);
 
     let obj ={
