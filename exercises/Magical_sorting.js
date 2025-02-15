@@ -1,7 +1,7 @@
 // The Magical sorting Hat: imagine you are creating a magical sorting hat for a wizard school. Implement a JavaScript
 //  function that takes an array of student names and assigns them to one of 
 //  four houses (Gryffindor (length less than 6), Hufflepuff(Length less than 8), Ravenclaw(Length less than 12), 
-//  pr Slytherin(length less than or eqal to 12)) based on the length of their names. 
+//  pr Slytherin(length less than or eqal to 12)) based on the length of their names . 
 
 let students = ["shubh", "muskan", "Susmita", "Kaif", "shubham", "Nagendra", "Krishnandu", "Shivesh", "Rahul"]
 
