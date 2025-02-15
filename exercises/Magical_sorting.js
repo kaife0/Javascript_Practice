@@ -3,7 +3,7 @@
 //  four houses (Gryffindor (length less than 6), Hufflepuff(Length less than 8), Ravenclaw(Length less than 12), 
 //  pr Slytherin(length less than or eqal to 12)) based on the length of their names . 
 
-let students = ["shubh", "muskan", "Susmita", "Kaif", "shubham", "Nagendra", "Krishnandu", "Shivesh", "Rahul"]
+let students = ["shubh", "muskan", "Susmita", "Kaif", "shubham", "Nagendra", "Krish", "Shivesh", "Rahul"]
 
 let houses = []
 
