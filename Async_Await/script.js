@@ -13,7 +13,7 @@
 //             resolve(455)
 //         }, 3500);
 //     })
-// }
+// }  
 
 //settle means resolve or reject
 //resolve means promise has setteled sucessfully
