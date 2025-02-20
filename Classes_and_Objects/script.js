@@ -10,7 +10,7 @@
 // let rabbit ={
 //     jumps: true
 // };
-// rabbit.__proto__ = animal; //sets rabbit.[[Prototype]] = animal;
+// rabbit.__proto__ = animal; //sets rabbit.[[Prototype]] = animal; 
 
 class Animal{
     constructor(name){
