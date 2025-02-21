@@ -6,7 +6,7 @@ const alphabeticalOrder = (str) =>{
 console.log(alphabeticalOrder('webmaster'));
 console.log(alphabeticalOrder('amanclo'));
 
-//count the no. of vowels from string
+//count the no. of vowels from string 
 
 const countLetters = (
     str, letters = ['a', 'e', 'i', 'o', 'u']) =>
