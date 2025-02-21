@@ -2,7 +2,7 @@
 let a = prompt("enter first Number")
 
 let b = prompt("enter second number");
-if(isNaN(a)|| isNaN(b)){
+if(isNaN(a)|| isNaN(b)){ 
     // console.log("invalid input");
     throw SyntaxError("Not allowed Motherfucker!")
 
