@@ -4,7 +4,7 @@ let a = prompt("enter first Number")
 let b = prompt("enter second number");
 if(isNaN(a)|| isNaN(b)){ 
     // console.log("invalid input");
-    throw SyntaxError("Not allowed Motherfucker!")
+    throw SyntaxError("Not allowed !")
 
 }
  let sum = parseInt(a) + parseInt(b);
@@ -17,7 +17,7 @@ if(isNaN(a)|| isNaN(b)){
          return true;
          
         } catch (error) {
-            console.log("Error Motherfucker")
+            console.log("Error ")
             return false;
         }
         finally{
