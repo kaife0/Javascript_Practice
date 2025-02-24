@@ -5,10 +5,10 @@ async function sleep(){
         }, 1000);
     })  
 }
-//immeadietly invoked function.[IIFE]
+//immeadietly invoked function.[IIFE] 
 (async function main(){
     // let a = await sleep()
-    // console.log(a);
+    // console.log(a); 
     // let b = await sleep()
     // console.log(b);
  
