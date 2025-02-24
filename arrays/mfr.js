@@ -7,7 +7,7 @@ let arr =[ 1,3, 5, 7, 11];
 // }
 
 let newArr = arr.map((e, index, array)=>{
-    return e**2;
+    return e**2; 
 })
 
 console.log(newArr);
