@@ -10,7 +10,7 @@ button.addEventListener("contextmenu", ()=>{
     alert ("Dont right click motherfucker!");
 
 })
-
+ 
 document.addEventListener("keydown", (e)=>{
     console.log(e);
 
