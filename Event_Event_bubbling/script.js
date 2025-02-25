@@ -5,7 +5,7 @@ button.addEventListener("dblclick", ()=>{
     document.querySelector(".box").innerHTML = "Yay! You were clicked";
 
 })
-
+ 
 button.addEventListener("contextmenu", ()=>{
     alert ("Dont right click motherfucker!");
 
