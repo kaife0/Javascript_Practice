@@ -9,7 +9,7 @@
 
 // switch(true){
 //     case (age > 8):
-//         console.log("can learn drive"); 
+//         console.log("can learn drive");  
 //         // break;
 //     case (age > 15):
 //         console.log("Practise driving");
