@@ -2,7 +2,7 @@ const screen = document.getElementById('screen');
 const buttons = document.querySelectorAll('button');
 let screenValue = '';
 
-buttons.forEach((button) => {
+buttons.forEach((button) => { 
     button.addEventListener('click', (e) => {
         const buttonText = e.target.textContent;
         // console.log(`Button text: ${buttonText}`);
