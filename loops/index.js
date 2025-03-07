@@ -2,7 +2,7 @@ console.log("I am a tutorial on Loops");
 
 // let i= 0;
 // let a = i;
-
+ 
 
 // while(i<10){
 //     console.log("value = " +i);
