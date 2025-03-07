@@ -6,7 +6,7 @@
 // student.name = prompt("enter name");
 // student.phonenumber = prompt("enter number");
 // student.marks = prompt("enter marks");
-
+ 
 // console.log(student)
 
 let myString = "hello"
