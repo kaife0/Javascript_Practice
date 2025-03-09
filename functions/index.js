@@ -1,7 +1,7 @@
 // function nice(name) {
 //     console.log("hey "  + name + " Your'e a rich guy");
 //     console.log("hey "  + name + " Your'e a nice guy");
-//     console.log("hey " + name + " Your'e a good guy");
+//     console.log("hey " + name + " Your'e a good guy"); 
 // }
 
 // nice("kaif");
