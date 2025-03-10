@@ -5,7 +5,7 @@ console.log("code is also running...")
 console.log("code is fully running...")
 
 var a= prompt("enter your number")
-
+ 
 var isTrue = confirm("Are you sure you want to leave this page")
 
 if(isTrue){
