@@ -8,7 +8,7 @@ let a = "kaif"
 // console.log(a[3])
 // console.log(a[4])
 
-// console.log(a.length)
+// console.log(a.length) 
 
 // let real_name = "kaif";
 // let friend = "rahul";
