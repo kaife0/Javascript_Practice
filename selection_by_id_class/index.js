@@ -6,7 +6,7 @@ console.log("KAif");
 // boxes[2].style.backgroundColor = "red";
 
 // document.getElementById("red").style.backgroundColor = "red";
-
+ 
 // document.querySelector(".box").style.backgroundColor = "lightgreen";
 
 console.log (document.querySelectorAll(".box"))
