@@ -3,7 +3,7 @@ console.log("KAif");
 // let boxes = document.getElementsByClassName("box")
 // console.log(boxes)
 
-// boxes[2].style.backgroundColor = "red";
+// boxes[2].style.backgroundColor = "red"; 
 
 // document.getElementById("red").style.backgroundColor = "red";
  
