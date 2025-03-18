@@ -3,7 +3,7 @@ console.log("this is promises");
 let prom1 = new Promise((resolve, reject)=>{
     let a = Math.random();
     if (a<0.5){
-        reject("No promise was not supported");
+        reject("No promise was not supported"); 
     }
     else{
  
