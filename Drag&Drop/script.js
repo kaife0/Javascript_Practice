@@ -11,7 +11,7 @@ imgBox.addEventListener('dragstart', (e) => {
         e.target.className = 'hide';
     }, 0);
 });
-
+ 
 imgBox.addEventListener('dragend', (e) => {
     console.log('dragEnd has been triggered');
     e.target.className = 'imgBox';
