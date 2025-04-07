@@ -3,7 +3,7 @@ async function sleep(){
         setTimeout(() => {
             resolve(45) 
         }, 1000);
-    })  
+    })   
 }
 //immeadietly invoked function.[IIFE] 
 (async function main(){
