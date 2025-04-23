@@ -1,4 +1,4 @@
-
+ 
 let a = prompt("enter first Number")
 
 let b = prompt("enter second number");
