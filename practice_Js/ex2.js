@@ -6,7 +6,7 @@ const makeNewString = (str)=>
 console.log(makeNewString('abc')); 
 console.log(makeNewString('abc123abc123'));
 console.log(makeNewString('ab'));
-
+ 
 //first half of string of even length
 
 const firstHalf = (str) => str.slice(0, str.length / 2);
