@@ -2,7 +2,7 @@ let arr = [1, 2, 4, 5, 7]
 
 //arrays are mutable , strings are immutable ,
 
-// console.log(arr);
+// console.log(arr); 
 // console.log(arr.length);
 // arr[0]= 8776;
 // console.log(arr[0]);
